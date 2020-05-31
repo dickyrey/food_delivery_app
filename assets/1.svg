@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="30" viewBox="0 0 33 30">
+  <g id="Group_29" data-name="Group 29" transform="translate(-5720 -332.5)">
+    <g id="Ellipse_37" data-name="Ellipse 37" transform="translate(5720 349)" fill="#fff" stroke="#707070" stroke-width="2">
+      <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+      <circle cx="5.5" cy="5.5" r="4.5" fill="none"/>
+    </g>
+    <g id="Ellipse_38" data-name="Ellipse 38" transform="translate(5731 335)" fill="#fff" stroke="#707070" stroke-width="2">
+      <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+      <circle cx="5.5" cy="5.5" r="4.5" fill="none"/>
+    </g>
+    <g id="Ellipse_39" data-name="Ellipse 39" transform="translate(5742 349)" fill="#fff" stroke="#707070" stroke-width="2">
+      <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+      <circle cx="5.5" cy="5.5" r="4.5" fill="none"/>
+    </g>
+    <line id="Line_40" data-name="Line 40" y2="15" transform="translate(5725.5 332.5)" fill="none" stroke="#707070" stroke-width="2"/>
+    <line id="Line_42" data-name="Line 42" y1="15" transform="translate(5736.5 347.5)" fill="none" stroke="#707070" stroke-width="2"/>
+    <line id="Line_44" data-name="Line 44" y2="15" transform="translate(5747.5 332.5)" fill="none" stroke="#707070" stroke-width="2"/>
+    <line id="Line_41" data-name="Line 41" y2="4" transform="translate(5725.5 358.5)" fill="none" stroke="#707070" stroke-width="2"/>
+    <line id="Line_43" data-name="Line 43" y1="4" transform="translate(5736.5 332.5)" fill="none" stroke="#707070" stroke-width="2"/>
+    <line id="Line_45" data-name="Line 45" y2="4" transform="translate(5747.5 358.5)" fill="none" stroke="#707070" stroke-width="2"/>
+  </g>
+</svg>
