@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/constants.dart';
 import 'package:food_delivery_app/models/product.dart';
+import 'package:food_delivery_app/views/product_details.dart';
 import 'package:food_delivery_app/widgets/product_card.dart';
 
 class DeliveryTab extends StatelessWidget {
@@ -27,9 +28,19 @@ class DeliveryTab extends StatelessWidget {
                 itemBuilder: (context, index) {
                   var product = recommendedList[index];
 
-                  return ProductCard(
-                    product: product,
-                    isRecommended: true,
+                  return InkWell(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => ProductDetail(product: product),
+                        ),
+                      );
+                    },
+                    child: ProductCard(
+                      product: product,
+                      isRecommended: true,
+                    ),
                   );
                 },
               ),
@@ -55,9 +66,19 @@ class DeliveryTab extends StatelessWidget {
               ),
               itemBuilder: (context, index) {
                 var product = recommendedList[index];
-                return ProductCard(
-                  product: product,
-                  isRecommended: false,
+                return InkWell(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => ProductDetail(product: product),
+                      ),
+                    );
+                  },
+                  child: ProductCard(
+                    product: product,
+                    isRecommended: false,
+                  ),
                 );
               },
             )
